@@ -8,19 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var countLabel: UILabel!
-    @IBOutlet weak var incCountButton: UIButton!
-    var count: Int = 0
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-    @IBAction func incCount() {
+    @IBOutlet weak private var countLabel: UILabel!
+    private var count = 0
+    
+    @IBAction private func increaseCount() {
         count += 1
         countLabel.text = "Значение счётчика: \(count)"
     }
 }
-

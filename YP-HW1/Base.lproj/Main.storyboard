@@ -48,7 +48,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="incCount" destination="BYZ-38-t0r" eventType="touchUpInside" id="29Y-nf-NGY"/>
+                                    <action selector="increaseCount" destination="BYZ-38-t0r" eventType="touchUpInside" id="29Y-nf-NGY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -63,7 +63,6 @@
                     </view>
                     <connections>
                         <outlet property="countLabel" destination="VEw-n2-qoe" id="odh-HZ-Xqo"/>
-                        <outlet property="incCountButton" destination="Udt-gn-Hwm" id="uiN-Sz-kkn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
